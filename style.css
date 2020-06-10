@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    display: flex;
+    /*flex-direction: column;*/
+    width: 20%;
+    margin: 10% auto;
+}
+
+p {
+    text-align: center;
+}
+
+input[type="email"], input[type="password"], button {
+    margin-top: 5%;
+    padding: 2%;
+    width: 100%;
+}
+
+input[type="checkbox"]{
+    margin-top: 5%;
+}
+    
+button {
+    background: #9534eb;
+    border: 0;
+}
+
